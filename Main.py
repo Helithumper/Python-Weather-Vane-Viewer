@@ -23,3 +23,5 @@ barometertable = PrettyTable(["ID","Date","Time","Barometric Pressure"]);
 for row in cur.fetchall():
     barometertable.add_row(row);
 print barometertable;
+
+#test add
